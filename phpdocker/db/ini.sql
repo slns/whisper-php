@@ -1,0 +1,5 @@
+CREATE DATABASE IF NOT EXISTS mysqldb;
+USE mysqldb;
+
+
+CREATE TABLE `mysqldb`.`files` (`id` INT NOT NULL AUTO_INCREMENT , `content` TEXT NULL DEFAULT NULL , `lang` VARCHAR(255) NULL DEFAULT NULL , `translated` TEXT NULL DEFAULT NULL , `fileUrl` VARCHAR(255) NULL DEFAULT NULL , `type` ENUM('audio','video') NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 
