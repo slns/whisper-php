@@ -7,7 +7,7 @@ Project to transcribe speech to text and translate in PHP
 ## To init project
 
 ```bash
-cd Project-files-MyWhisper
+cd whisper-php
 
 docker-compose up -d
 ```
